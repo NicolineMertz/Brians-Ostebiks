@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ostebiksen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#content" class="sr-only">Spring til inholdet</a>
+    <header class="siteHeader">
+        <a href="./" class="siteHeader__brand">Brians Ostebiks</a>
+        <button class="burgerMenuButton">
+            <i data-feather="menu"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+        <nav class="primaryNavigation" aria-hidden="true">
+            <menu class="primaryNavigation__menu">
+                <li class="primaryNavigation__menuItem"><a href="#" class="primaryNavigation__link">link 1</a></li>
+                <li class="primaryNavigation__menuItem"><a href="#" class="primaryNavigation__link">link 2</a></li>
+                <li class="primaryNavigation__menuItem"><a href="#" class="primaryNavigation__link">link 3</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <main id="content">
+
+    </main>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+    feather.replace()
+    </script>
+    <script src="assets/scripts/burgermenu.js" defer></script>
+</body>
+</html>
